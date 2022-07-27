@@ -22,7 +22,7 @@ const Map = () => {
   return (
     <div className="bestpomp-contact-map-container" style={{ height: '500px', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDxyAl4MsQKUkD8OdyORUurUS5xSRaJsCM" }}
+        bootstrapURLKeys={{ key: process.env.GOOGLE_API_KEY }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         onGoogleApiLoaded={({ map, maps }) => renderMarkers(map, maps)}
