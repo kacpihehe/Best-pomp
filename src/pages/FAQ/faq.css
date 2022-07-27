@@ -1,0 +1,34 @@
+.bestpomp-faq-main{
+    background-color: #F7F7F7;
+    height: 1000px;
+    width: 100%;
+}
+.bestpomp-faq-container{
+    background-color:#F7F7F7;
+    height: 1000px;
+    width: 50%;
+    margin: auto;
+}
+.bestpomp-faq-container p{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.bestpomp-faq-container span{
+    font-size:15px;
+    max-width: 200px;
+    padding-bottom: 100px;
+}
+.bestpomp-faq-heading{
+    text-align: center;
+    background-color: #F7F7F7;
+    height: 200px;
+    width: 100%;
+}
+.bestpomp-faq-heading p{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.bestpomp-faq-heading span{
+    padding:0;
+}

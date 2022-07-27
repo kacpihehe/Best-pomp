@@ -1,0 +1,18 @@
+.bestpomp-footer-container {
+  width: 100%;
+  text-align: center;
+}
+
+.bestpomp-footer-container div {
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+.bestpomp-footer-credentials {
+  font-size: 15px;
+}
+
+.bestpomp-footer-socialmedia a {
+  margin: 10px;
+  color: black;
+}

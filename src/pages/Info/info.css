@@ -1,0 +1,37 @@
+.bestpomp-info-container{
+    width: 90vw;
+  display: flex;
+  margin: 50px auto;
+  gap: 25px;
+
+  height: 600px;
+}
+
+
+.bestpomp-info-container div {
+    width: 50%;
+    background-color: #f7f7f7;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10%;
+  }
+
+  .bestpomp-info-container div p {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    color:#ffc03a;
+  }
+  
+  .bestpomp-info-container div span {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+  }
+  .bestpomp-info-container img{
+      height: 600px;
+  }
