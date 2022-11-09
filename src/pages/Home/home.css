@@ -62,12 +62,47 @@
 }
 
 .bestpomp-homepage-info div span {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   line-height: 1.875em;
   font-size: 15px;
 }
 
-.bestpomp-homepage-info-image{
-height:540px;
+@media (max-width: 500px) {
+  .bestpomp-homepage-info {
+    flex-direction: column;
+  }
+
+  .bestpomp-homepage-info div {
+    width: 80%;
+  }
+
+  .services-title {
+    height: auto;
+  }
+
+  .services-photos {
+    flex-direction: column;
+    width: auto;
+    padding: 0 5%;
+  }
+
+  .service-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+
+  .services-photos {
+    height: auto;
+  }
+
+  .bestpomp-contact-panel {
+    display: none;
+  }
+
+  .bestpomp-mobile-contact {
+    display: block;
+  }
 }

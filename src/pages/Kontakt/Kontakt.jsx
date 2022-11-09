@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './kontakt.css';
 import Map from './Map';
 
@@ -42,9 +42,36 @@ const Kontakt = () => {
           <button>Wyślij</button>
         </div>
       </div>
+      <div className='bestpomp-mobile-contact-panel'>
+        <div className='bestpomp-contact-input'>
+          <label>Imię</label>
+          <input placeholder='Wpisz swoje imię' type='text' />
+        </div>
+        <div className='bestpomp-contact-input'>
+          <label>Adres</label>
+          <input placeholder='Wprowadź swój adres' type='text' />
+        </div>
+        <div className='bestpomp-contact-input'>
+          <label>E-mail</label>
+          <input placeholder='Wpisz swój e-mail' type='text' className='mail' />
+        </div>
+        <div className='bestpomp-contact-input'>
+          <label>Telefon</label>
+          <input placeholder='Wpisz swój numer telefonu' type='text' className='tel' />
+        </div>
+        <div className='bestpomp-contact-input'>
+          <label>Temat</label>
+          <input placeholder='Wpisz temat' type='text' />
+        </div>
+        <div className='bestpomp-contact-input'>
+          <label>Wiadomość</label>
+          <textarea placeholder='Tutaj wpisz swoją wiadomość...' type='text' />
+        </div>
+        <button>Wyślij</button>
+      </div>
       <Map></Map>
-    </div >
-  )
-}
+    </div>
+  );
+};
 
-export default Kontakt
+export default Kontakt;

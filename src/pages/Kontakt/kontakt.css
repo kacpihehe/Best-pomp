@@ -1,5 +1,5 @@
 .bestpomp-contact-root {
-    width: 90%;
+    width: 90vw;
     margin: auto;
 }
 .bestpomp-contact-panel {
@@ -80,4 +80,40 @@
 }
 .bestpomp-contact-map-container {
     margin: auto;
+}
+
+.bestpomp-mobile-contact-panel label {
+    font-family: "Raleway", sans-serif;
+}
+
+.bestpomp-mobile-contact-panel textarea {
+    resize: none;
+    height: 100px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+.bestpomp-mobile-contact-panel input {
+    font-family: "Raleway", sans-serif;
+    padding: 3px 3px 3px 5px;
+    min-height: 51px;
+    font-size: 15px;
+}
+
+.bestpomp-mobile-contact-panel button {
+    border: none;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    background: black;
+    color: white;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+    .bestpomp-contact-input {
+        width: auto;
+    }
 }
