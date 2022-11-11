@@ -111,8 +111,13 @@
     font-size: 16px;
     margin-bottom: 15px;
 }
-
+.bestpomp-mobile-contact-panel{
+    display: none;
+}
 @media (max-width: 500px) {
+    .bestpomp-mobile-contact-panel{
+        display: block;
+    }
     .bestpomp-contact-input {
         width: auto;
     }

@@ -35,3 +35,22 @@
   .bestpomp-info-container img{
       height: 600px;
   }
+
+  @media (max-width: 500px) {
+    .bestpomp-info-container{
+      display: inline-block;
+    }
+    .bestpomp-info-container div{
+      width: 90vw;
+      padding: 0;
+      margin-left: 5%;
+    }
+    .bestpomp-info-container img{
+      padding: 0;
+      margin-left: 5%;
+      height: 90vw;
+    }
+    .bestpomp-info-container span{
+      padding: 5%;
+    }
+  }

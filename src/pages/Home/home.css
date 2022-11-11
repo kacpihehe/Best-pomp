@@ -29,7 +29,9 @@
   object-fit: cover;
   opacity: 0.6;
 }
-
+.bestpomp-homepage-info-image{
+width: 50%;
+}
 .bestpomp-react-parallax-container {
   background-color: black;
   overflow: hidden;
@@ -72,7 +74,9 @@
   .bestpomp-homepage-info {
     flex-direction: column;
   }
-
+  .bestpomp-homepage-info-image{
+    width: 100%;
+  }
   .bestpomp-homepage-info div {
     width: 80%;
   }

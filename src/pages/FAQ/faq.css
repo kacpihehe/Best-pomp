@@ -32,3 +32,16 @@
 .bestpomp-faq-heading span{
     padding:0;
 }
+
+@media (max-width: 500px) {
+    .bestpomp-faq-main{
+        display: inline-block;
+        width: 90vw;
+        margin-left:5%;
+        height: 100%;
+    }
+    .bestpomp-faq-container{
+        width: 80vw;
+        height: 100%;
+    }
+}

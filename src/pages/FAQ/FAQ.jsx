@@ -3,7 +3,6 @@ import './faq.css';
 
 const FAQ = () => {
   return (
-    <div className='main'>
     <div className='bestpomp-faq-main'>
       <div className='bestpomp-faq-container'>
         <div className='bestpomp-faq-heading'>
@@ -17,8 +16,6 @@ const FAQ = () => {
         <p>CZY OFERUJECIE USŁUGI W NAGŁYCH WYPADKACH?</p>
         <span>Tutaj umieść swoją odpowiedź. Pisz jasno i zwięźle. Nie zapominaj o możliwości dodania przykładów, tak w formie pisemnej, jak i wizualnej. Przeczytaj jeszcze raz napisany tekst. Spróbuj wcielić się w osobę, która po raz pierwszy odwiedza Twoją witrynę i zastanów się, czy napisana odpowiedź byłaby dla niej zrozumiała.</span>
       </div>
-    </div>
-    test
     </div>
   )
 }
